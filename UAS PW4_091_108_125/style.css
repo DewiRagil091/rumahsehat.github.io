@@ -1,0 +1,48 @@
+h5 {
+    text-align: center;
+}
+
+body {
+    padding-top: 70px;
+}
+
+/* Custom card styles */
+.card {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #3498db;
+}
+
+.card-text {
+    color: #34495e;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+.container-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-table {
+    height: 500px;
+    border: 1px solid #000;
+    overflow: scroll;
+}
